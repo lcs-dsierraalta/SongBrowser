@@ -15,6 +15,10 @@
 		39AD7BAB25E15E20009DB62A /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AD7BAA25E15E20009DB62A /* Song.swift */; };
 		39AD7BAF25E15E97009DB62A /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AD7BAE25E15E97009DB62A /* SearchResult.swift */; };
 		39AD7BCE25E410D6009DB62A /* SimpleListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AD7BCD25E410D6009DB62A /* SimpleListItem.swift */; };
+		39AD7BD225E414D6009DB62A /* SongDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AD7BD125E414D6009DB62A /* SongDetailView.swift */; };
+		39AD7BD525E414E7009DB62A /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AD7BD425E414E7009DB62A /* ItemDetailView.swift */; };
+		39AD7BD825E414FB009DB62A /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AD7BD725E414FB009DB62A /* RemoteImageView.swift */; };
+		39AD7BDB25E41508009DB62A /* RemoteAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AD7BDA25E41508009DB62A /* RemoteAudioView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		39AD7BAA25E15E20009DB62A /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		39AD7BAE25E15E97009DB62A /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		39AD7BCD25E410D6009DB62A /* SimpleListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleListItem.swift; sourceTree = "<group>"; };
+		39AD7BD125E414D6009DB62A /* SongDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailView.swift; sourceTree = "<group>"; };
+		39AD7BD425E414E7009DB62A /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		39AD7BD725E414FB009DB62A /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
+		39AD7BDA25E41508009DB62A /* RemoteAudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAudioView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +92,10 @@
 				39AD7B9725E158DA009DB62A /* ContentView.swift */,
 				39AD7BA525E159C7009DB62A /* SearchBarView.swift */,
 				39AD7BCD25E410D6009DB62A /* SimpleListItem.swift */,
+				39AD7BD125E414D6009DB62A /* SongDetailView.swift */,
+				39AD7BD425E414E7009DB62A /* ItemDetailView.swift */,
+				39AD7BD725E414FB009DB62A /* RemoteImageView.swift */,
+				39AD7BDA25E41508009DB62A /* RemoteAudioView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,9 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39AD7BD225E414D6009DB62A /* SongDetailView.swift in Sources */,
+				39AD7BD825E414FB009DB62A /* RemoteImageView.swift in Sources */,
 				39AD7BCE25E410D6009DB62A /* SimpleListItem.swift in Sources */,
+				39AD7BDB25E41508009DB62A /* RemoteAudioView.swift in Sources */,
 				39AD7BAB25E15E20009DB62A /* Song.swift in Sources */,
 				39AD7B9825E158DA009DB62A /* ContentView.swift in Sources */,
+				39AD7BD525E414E7009DB62A /* ItemDetailView.swift in Sources */,
 				39AD7BAF25E15E97009DB62A /* SearchResult.swift in Sources */,
 				39AD7BA625E159C8009DB62A /* SearchBarView.swift in Sources */,
 				39AD7B9625E158DA009DB62A /* SongBrowserApp.swift in Sources */,

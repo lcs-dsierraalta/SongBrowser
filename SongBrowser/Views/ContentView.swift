@@ -45,7 +45,7 @@ struct ContentView: View {
                 //Keypath of \.trackId tells the list view what property to use to uniquely identify a song
                 List(songs, id: \.trackId) { currentSong in
                     
-                    SimpleListItem(title: currentSong.trackName
+                    SimpleListItem(title: currentSong.trackName,
                                    caption: currentSong.artistName)
                     
                 }
