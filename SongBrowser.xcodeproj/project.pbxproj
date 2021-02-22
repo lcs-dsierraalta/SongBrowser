@@ -14,6 +14,7 @@
 		39AD7BA625E159C8009DB62A /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AD7BA525E159C7009DB62A /* SearchBarView.swift */; };
 		39AD7BAB25E15E20009DB62A /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AD7BAA25E15E20009DB62A /* Song.swift */; };
 		39AD7BAF25E15E97009DB62A /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AD7BAE25E15E97009DB62A /* SearchResult.swift */; };
+		39AD7BCE25E410D6009DB62A /* SimpleListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AD7BCD25E410D6009DB62A /* SimpleListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		39AD7BA525E159C7009DB62A /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		39AD7BAA25E15E20009DB62A /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		39AD7BAE25E15E97009DB62A /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		39AD7BCD25E410D6009DB62A /* SimpleListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				39AD7B9725E158DA009DB62A /* ContentView.swift */,
 				39AD7BA525E159C7009DB62A /* SearchBarView.swift */,
+				39AD7BCD25E410D6009DB62A /* SimpleListItem.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39AD7BCE25E410D6009DB62A /* SimpleListItem.swift in Sources */,
 				39AD7BAB25E15E20009DB62A /* Song.swift in Sources */,
 				39AD7B9825E158DA009DB62A /* ContentView.swift in Sources */,
 				39AD7BAF25E15E97009DB62A /* SearchResult.swift in Sources */,
